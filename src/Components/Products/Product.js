@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Product.css';
 
-function Product() {
-    return (
-        <div className="Product">
-        <h1>test</h1>
-        </div>
-    );
+class Product extends Component {
+    render() {
+        return (
+            <div className="Product">
+                <h1>Procuct test</h1>
+            </div>
+        );
+    }
 }
 
 export default Product;

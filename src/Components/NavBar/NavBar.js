@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './NavBar.css';
 
-function NavBar() {
-    return (
-        <div className="NavBar">
-        <h1>test</h1>
-        </div>
-    );
+class NavBar extends Component {
+    render() {
+        return (
+            <div className="NavBar">
+                <h1>NavBar test</h1>
+            </div>
+        );
+    }
 }
 
 export default NavBar;
