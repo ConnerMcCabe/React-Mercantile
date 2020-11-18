@@ -9,12 +9,12 @@ import Footer from '../Components/Footer/Footer';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="container">
         <NavBar />
         <News />
         <Product />
         <Footer />
-      </React.Fragment>
+      </div>
     )
   }
 
